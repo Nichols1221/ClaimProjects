@@ -32,7 +32,7 @@
 	</div>
 
 	<div>
-		<form:form modelAttribute="agent" action="sign-up" method="post">
+		<form:form modelAttribute="agent" action="agentSignUp" method="post">
 			<div class="form-group col-md-6">
 				<label for="inputName">Username</label>
 				<form:input path="username" type="text" class="form-control"

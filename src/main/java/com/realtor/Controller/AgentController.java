@@ -21,14 +21,15 @@ public class AgentController {
 	@Autowired
 	AgentService agentService;
 
-	@GetMapping("/agentportal")
-	public String agentPortal(Model model, Agents agent) {
+	@GetMapping("/agentportal/{agentId}")
+	public String agentPortal(Model model, Agents agent, @PathVariable Integer agentId) {
 		
-		Agents loggedInAgent = agentService.signIn(agent);
+		
 
-		if (loggedInAgent == null) {
+		if (agentId == null) {
 			return "agentSignIn";
 		}
+		Agents loggedInAgent = agentService.signIn(agent);
 
 		model.addAttribute("agent", loggedInAgent);
 		
@@ -50,7 +51,7 @@ public class AgentController {
 
 		agentService.save(agent);
 
-		return new ModelAndView("sign-in", "agent", new Agents());
+		return new ModelAndView("agentSignIn", "agent", new Agents());
 
 	}
 
@@ -69,7 +70,7 @@ public class AgentController {
 		Agents loggedInAgent = agentService.signIn(agent);
 
 		if (loggedInAgent == null) {
-			return "sign-in";
+			return "agentSignIn";
 		}
 
 		model.addAttribute("agent", loggedInAgent);

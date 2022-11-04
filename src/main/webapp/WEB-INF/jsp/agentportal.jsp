@@ -39,10 +39,10 @@
 
         <div class=" flex-col flex-display  height center-mid    ">
             <div  class="font flex-row half-width flex-display center-home center-mid">
-                <a href="/"></a>
+                <a href="/newListing">New Listing</a>
             </div>
             <div class="font flex-row half-width flex-display center-home center-mid">
-                <a href="/">Agent Sign-up</a>
+                <a href="/">My Listings</a>
             </div>
 
         </div>
