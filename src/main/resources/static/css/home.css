@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(https://images.pexels.com/photos/1693302/pexels-photo-1693302.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-blend-mode: lighten;
+    height: 100%;
+    width: 100%;
+}
+.topbar {
+    height: 54px;
+    background-color: rgb(216, 205, 191);
+}
+.mid-block {
+    background-image: url(https://images.pexels.com/photos/4846101/pexels-photo-4846101.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+    
+}
+
+.mid-agent {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+}
+.height {
+    height:50rem;
+}
+.flex-display {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}   
+.auto-marg {
+    margin: auto;
+}
+.marg-top {
+    margin-top: 20%;
+}
+.center-text {
+    text-align: center;
+}
+.center {
+    align-items: center;
+}
+.justify {
+    justify-content: center;
+}
+.center-topbar {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+.full-width {
+    width: 100%;
+}
+.threeq-width {
+    width: 75%;
+}
+.half-width {
+    width: 50%;
+}
+.third-width {
+    width: 33%;
+}
+.quarter-width {
+    width: 25%;
+}
+.text-space {
+    text-justify: auto ;
+    text-align: center;
+    
+}
+
+.font {
+    font-size: 4rem;
+}
+.center-mid {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.center-home {
+    height: 75%;
+    width: 75%;
+}
+.border-mid {
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
+    border: 20px;
+    margin: auto;
+    height: 30px;
+    background-color: rgb(185, 223, 168);
+}
+.home-display {
+   height: 25rem;
+    margin: auto;
+}
+.home-item {
+    height: 25%;
+    width: 75%;
+}
+.buttons {
+    height: 25%;
+    width: 25%;
+    font-size: 150%;
+    text-align: center;
+    justify-content: center;
+}
+.home-pictue {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
+    
+    background-color: rgb(185, 223, 168);
+}
+
+
+.home-picture1 {
+    background-image: url(https://wallpaperaccess.com/full/3060214.jpg);
+  
+}
+.home-picture2 {
+    background-image: url(https://images.alphacoders.com/435/435117.jpg);
+
+}
+.home-picture3 {
+    background-image: url(https://wallpaperaccess.com/full/1126760.jpg);
+    
+}
+.home-picture4 {
+    background-image: url(https://ansunibaate.com/wp-content/uploads/2019/05/house-design-full-image-picture-photo-hd.jpg);
+ 
+}
+.home-picture5 {
+    background-image: url(https://wallpaper.dog/large/5491317.jpg);
+ 
+}
+.home-picture6 {
+    background-image: url(https://images5.alphacoders.com/341/341715.jpg);
+   
+}
+.home-picture7 {
+    background-image: url(https://ansunibaate.com/wp-content/uploads/2019/05/Custom-Home-Sunset.jpg);
+    
+}
+.home-picture8 {
+    background-image: url(https://media.istockphoto.com/photos/freshly-painted-craftsman-bungalow-house-picture-id1415886888?b=1&k=20&m=1415886888&s=170667a&w=0&h=w8r9WQ56sXyAI8bmFGaqeK8R1sju-hdLIVupHP80GhY=);
+    
+}
